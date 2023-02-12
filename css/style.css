@@ -1,0 +1,187 @@
+.container {
+    max-width: 1790px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.log_in_header_logo {
+    display: flex;
+    justify-content: center;
+    padding: 200px 0 110px 0;
+}
+.header_logo_link img {
+    width: 200px;
+    height: 67px;
+}
+.form_wrapper {
+    display: flex;
+    justify-content: center;
+}
+.form_log_in {
+    display: flex;
+    flex-direction: column;
+}
+.form_log_in_input_login {
+    width: 550px;
+    height: 60px;
+    background: #F3F5F5;
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 135%;
+    color: #8C8C8C;
+    margin-bottom: 20px;
+    padding: 18px 0 15px 20px;
+}
+.form_log_in_input_password {
+    background: #F3F5F5;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 135%;
+    color: #8C8C8C;
+}
+.form_password_eye {
+    width: 550px;
+    height: 60px;
+    background: #F3F5F5;
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 135%;
+    color: #8C8C8C;
+    padding: 18px 17px 15px 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.remember_data {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 135%;
+    color: #052140;
+    margin-left: 15px;
+}
+.invalid_password {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 135%;
+    color: #F5222D;
+    margin: 10px 0 30px 0;
+    display: none;
+}
+.checkbox_remember_data {
+    display: flex;
+    margin: 20px 0 100px 0;
+}
+.log_in_forgot_password {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.log_in_button {
+    background: #0176FF;
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 135%;
+    color: #FFFFFF;
+    padding: 16px 40px;
+}
+.forgot_password a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 135%;
+    color: #052140;
+}
+.bi-eye-slash {
+    color: #595959;
+}
+@media (max-width: 575px) {
+    .container {
+        max-width: 340px;
+        padding: 0 20px;
+        margin: 0 auto;
+    }
+    .log_in_header_logo {
+        padding: 100px 0;
+    }
+    .form_wrapper {
+        display: block;
+    }
+    .form_log_in_input_login {
+        width: 300px;
+        height: 42px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 135%;
+        padding: 10px;
+    }
+    .form_log_in_input_password {
+        /* background: #F3F5F5; */
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 135%;
+        color: #8C8C8C;
+    }
+    .form_password_eye {
+        width: 300px;
+        height: 42px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 135%;
+        color: #8C8C8C;
+        padding: 10px;
+        /* display: flex;
+        justify-content: space-between; */
+    
+    }
+    .remember_data {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 135%;
+        color: #052140;
+        margin-left: 18px;
+    }
+    .checkbox_remember_data {
+        margin: 22px 0 100px 0;
+    }
+    .log_in_button {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 135%;
+        color: #FFFFFF;
+        padding: 12px 24px;
+    }
+    .forgot_password a{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 135%;
+        color: #052140;
+    }
+}
+
